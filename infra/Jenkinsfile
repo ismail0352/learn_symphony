@@ -25,8 +25,8 @@ node {
         stage ('Deploy') {
             sh "echo 'shell scripts to deploy to server...'"
         }
-	sh "echo 'Please check the Blue Ocean Symbol for piepline'"
-	sh "echo 'Click the Sun Symbol for phases of pipeline'"
+	sh "echo 'PLEASE CHECK THE BLUE OCEAN SYMBOL ON THE LEFT'"
+	sh "echo 'CLICK THE SUN SYMBOL FOR PIPELINE STRUCTURE VIEW'"
 
     } catch (err) {
         currentBuild.result = 'FAILED'
